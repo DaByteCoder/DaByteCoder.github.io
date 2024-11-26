@@ -6,9 +6,12 @@
         <body>
             <style>
                 col.time{
-                    background-color: #e45e3d !important;
-                    font-weight: lighter !important;
-                    
+                    background-color: #e45e3d;
+                    font-weight: lighter;
+                }
+                col.event{
+                    background-color: #d63838;
+                    font-weight: normal;
                 }
                 table{
                     border-collapse: collapse;
@@ -16,7 +19,6 @@
                 td {
                     border: 2px solid black;
                     color: white;
-                    background-color: #d63838;
                     padding: 15px;
                     font-family: 'Segoe UI', Verdana, sans-serif;
                 }
@@ -27,12 +29,15 @@
                     padding: 15px;
                     font-family: 'Segoe UI', Verdana, sans-serif;
                 }
+                tr {
+                    padding: 15px;
+                }
                 
             </style>
 
             <table>
                 <colgroup>
-                    <col>
+                    <col class = "event">
                     <col class = "time">
                 </colgroup>
                 <tr>
@@ -50,6 +55,26 @@
                 <tr>
                     <td>Lunch</td>
                     <td>11:50am</td>
+                </tr>
+                <tr>
+                    <td>This Class</td>
+                    <td>1:25pm</td>
+                </tr>
+                <tr>
+                    <td>School Ends</td>
+                    <td>3:10pm</td>
+                </tr>
+                <tr>
+                    <td>Swimming</td>
+                    <td>3:30pm</td>
+                </tr>
+                <tr>
+                    <td>Dinner</td>
+                    <td>5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Go To Bed</td>
+                    <td>9:30pm</td>
                 </tr>
             </table>
         </body>
