@@ -1,0 +1,20 @@
+table{
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid black;
+    color: white;
+    background-color:#55332e;
+    padding: 10px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+th {
+    border: 2px solid black;
+    color: white;
+    background-color: #8f2e21;
+    padding: 10px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+tr {
+    padding: 10px;
+}
