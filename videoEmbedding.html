@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Video Embedding Tutorial</title>
+            <link rel="stylesheet" type="text/css" href="css/videoEmbedding.css"/>
+        </head>
+
+        <body>
+            <h1>How to Embedded a Video onto Your Website</h1>
+            <div>
+                <h2>Step #1: Choose Your Video</h2>
+                <p>Find the video you want on Youtube (not all will work).</p>
+                <img src="Photos/Embedding/youtube.png" alt="Photo of Youtube">
+            </div>
+            <div>
+                <h2>Step #2: Get the Embedded Code</h2>
+                <p>Click on your video, and once you are on the watching screen, go under the video and click <i>Share</i> and then <i>Embed</i>. A screen should pop up with the code, at which point you can click the copy button underneath.</p>
+                <section class="twoPhotos">
+                    <img src="Photos/Embedding/embed1.png" alt="Photo of the Share screen">
+                    <img src="Photos/Embedding/embed2.png" alt="Photo of the Embed screen">
+                </section>
+            </div>
+            <div>
+                <h2>Step #3: Put it on Your Website</h2>
+                <p>Go to your coding space, and paste the code in the body wherever you want it, but make sure you put it in a div of class container. Also, change the width and height to 100% IF you want to change the size later on. If not, keep it how it is.</p>
+                <img class="small" src="Photos/Embedding/div.png" alt="Photo of Youtube">
+            </div>
+            <div>
+                <h2>Step #4: Change the size if wanted</h2>
+                <p>Make a css file to link to your website, and in it declare the wanted height and width for .container using a 16:9 Ratio Calculator.</p> <!--I know this isn't in the video, but it's a much easier this way.-->
+                <img class="small" src="Photos/Embedding/container.png" alt="Photo of Youtube">
+            </div>
+            <div>
+                <h2>Example Video</h2>
+                <div class="container">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ly36kn0ug4k?si=4Iio4SWjULesmQOy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </body>
+    </html>
