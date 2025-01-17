@@ -1,0 +1,294 @@
+body {
+    background-color: rgb(4, 88, 88);
+    background-image: url(../Photos/SwimPage/waterBackground.png);
+    color: rgb(193, 246, 229);
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    margin: 0px 150px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    background-color: rgb(4, 54, 59);
+    width: auto;
+    height: 98%;
+    position: fixed;
+    overflow: auto;
+    border-radius: 10px;
+    left: 10px;
+    font-weight: bold;
+    top: 10px;
+}
+
+li a.nav {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: rgb(193, 246, 229);
+}
+
+li a.nav:hover {
+    background-color: rgb(81, 177, 162);
+    color: black;
+}
+
+.active {
+    background-color: rgb(2, 88, 104);
+}
+
+
+
+p {
+    font-size: large;
+    font-weight: 450;
+}
+
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto;
+    
+}
+
+.header h1 {
+    background-color: rgb(4, 54, 59); 
+    padding: 20px 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.main h2 {
+    padding: 10px 5px;
+}
+
+.main {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 73, 73);
+    margin-bottom: 40px;
+}
+
+a {
+    color: rgb(173, 235, 185);
+}
+
+img.pool{
+    position: absolute;
+    right: 5%;
+    top: 120px;
+    width: 38%;
+    border-radius: 10px;
+}
+
+
+
+section.boys {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+}
+
+section div.headb {
+    grid-column-start: auto;
+    grid-column-end: span 2;
+    background-color: rgb(3, 73, 73);
+    margin: 10px 200px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
+section div.bswimmers {
+    background-color: rgb(3, 73, 73);
+    width: 40%;
+    justify-self: center;
+    border-radius: 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+section.girls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+section div.headg {
+    grid-column-start: auto;
+    grid-column-end: span 3;
+    background-color: rgb(3, 73, 73);
+    margin: 10px 200px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
+section div.gswimmers {
+    background-color: rgb(3, 73, 73);
+    width: 60%;
+    justify-self: center;
+    border-radius: 20px;
+    margin: 25px 0px;
+    text-align: center;
+}
+
+section.girls h3, section.boys h3 {
+    color: rgb(173, 235, 185);
+}
+
+section.girls p, section.boys p {
+    padding: 5px 40px;
+}
+
+section div img {
+    border-radius: 50%;
+    width: 150px;
+    display: flex;
+    justify-self: center;
+    padding: 5px;
+}
+
+table.rec {
+    border-collapse: collapse;
+    display: flex;
+    justify-self: center;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(255, 246, 238);
+    color: rgb(8, 8, 8);
+}
+
+table.rec th {
+    padding: 10px;
+}
+
+table.rec td {
+    padding: 15px;
+}
+
+table.rec th.rud {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(8, 8, 8);
+}
+
+table.rec th.sw {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(8, 8, 8);
+}
+
+img.rec {
+    width: 30%;
+    display: flex;
+    justify-self: center;
+}
+
+.orng {
+    background-color: rgb(228, 87, 46);
+    color: rgb(255, 246, 238);;
+}
+
+.ot {
+    color: rgb(228, 87, 46);
+    font-size: larger;
+}
+
+.info h2, .infoForm h2{
+    padding: 10px 5px;
+}
+
+.info {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 73, 73);
+    margin-bottom: 40px;
+}
+
+.infoForm {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(4, 54, 59);
+    color: rgb(173, 235, 185);
+}
+
+.infoForm input, .infoForm textarea{
+    background-color: rgb(173, 235, 185);
+    color: rgb(4, 54, 59);
+    font-weight: bold;
+    max-width: 75%;
+}
+
+img.infoImg{
+    position: absolute;
+    right: 9%;
+    top: 120px;
+    border-radius: 10px;
+    width: 23%;
+}
+
+.meets {
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(3, 73, 73);
+    margin-bottom: 40px;
+    font-size: large;
+    font-weight: 450;
+    justify-self: center;
+    text-align: center;
+}
+
+.meets li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.meets li li {
+    padding: 2px;
+    color: rgb(173, 235, 185);
+}
+
+img.dog {
+    position: absolute;
+    left: 9%;
+    top: 25%;
+    width: 20%;
+}
+
+img.MHSAA {
+    position: absolute;
+    right: 9%;
+    top: 25%;
+    border-radius: 25%;
+    width: 20%;
+}
+
+iframe {
+    display:block;
+    margin: auto;
+}
+
+.piranhas {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 73, 73);
+    margin-bottom: 40px;
+    justify-self: center;
+    text-align: center;
+}
+
+.piranhas h2 {
+    padding: 10px 5px;
+}
